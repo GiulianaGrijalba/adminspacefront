@@ -48,9 +48,9 @@ export default function RegisterView() {
       }
   
       router.push("/login")
-    } catch (err: any) {
-      console.error("Registro fallido:", err.message)
-      alert(`Registro fallido: ${err.message}`)
+    } catch (error) {
+      console.error("Registro fallido:", error)
+      alert(`Registro fallido: ${error}`)
     } finally {
       setIsLoading(false)
     }

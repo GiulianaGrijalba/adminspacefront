@@ -1,7 +1,7 @@
 'use client'
 
 import Link from "next/link"
-import { CreditCard, FileText, Home, LayoutDashboard, Settings, LogOut } from "lucide-react"
+import { CreditCard, FileText, Home, LayoutDashboard, LogOut } from "lucide-react"
 import { ReactNode } from "react"
 import { useRouter } from "next/navigation"
 
