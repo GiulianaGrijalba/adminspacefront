@@ -65,8 +65,8 @@ export default function LoginView() {
         default:
           router.push("/")
       }
-    } catch (err: any) {
-      console.error("Error de login:", err.message)
+    } catch (error) {
+      console.error("Error de login:", error)
     } finally {
       setIsLoading(false)
     }
